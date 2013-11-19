@@ -1,5 +1,6 @@
+// this is a test for pushing
 var serialport = require("serialport");
-var SerialPort = serialport.SerialPort
+var SerialPort = serialport.SerialPort;
 var serialPort = new SerialPort("/dev/ttymxc0", {
   baudrate: 115200,
   parser: serialport.parsers.readline("\r")
